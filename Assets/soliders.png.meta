@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 274ce913408bc0541bfabf1423885ef7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: soliders_0
+    21300002: soliders_1
+    21300004: soliders_2
+    21300006: soliders_3
+    21300008: soliders_4
+    21300010: soliders_5
+    21300012: soliders_6
+    21300014: soliders_7
+    21300016: soliders_8
+    21300018: soliders_9
+    21300020: soliders_10
+    21300022: soliders_11
+    21300024: soliders_12
+    21300026: soliders_13
+    21300028: soliders_14
+    21300030: soliders_15
+    21300032: soliders_16
+    21300034: soliders_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: soliders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 240
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 552
+        width: 240
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 552
+        width: 240
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 552
+        width: 241
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 552
+        width: 241
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_5
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 552
+        width: 241
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 240
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 282
+        width: 240
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 282
+        width: 241
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 279
+        width: 240
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_10
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 279
+        width: 242
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_11
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 279
+        width: 240
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 241
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_14
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 240
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 240
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_16
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 240
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: soliders_17
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 0
+        width: 240
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

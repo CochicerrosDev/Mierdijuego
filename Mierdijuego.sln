@@ -1,19 +1,23 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{CCF64608-FDBA-87C1-70B4-544F95FDA175}") = "Mierdijuego", "Assembly-CSharp.csproj", "{15D6C869-3B7E-3839-628F-A26E5F3CC36B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{15D6C869-3B7E-3839-628F-A26E5F3CC36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D6C869-3B7E-3839-628F-A26E5F3CC36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D6C869-3B7E-3839-628F-A26E5F3CC36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D6C869-3B7E-3839-628F-A26E5F3CC36B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -31,4 +35,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
