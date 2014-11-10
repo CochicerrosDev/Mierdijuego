@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: df5fc9d96d528d0448cb69d89dadd034
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EspFrente
+    21300002: EspFrente2
+    21300004: EspFrente3
+    21300006: EspIzq
+    21300008: EspIzq2
+    21300010: EspIzq3
+    21300012: EspEspalda
+    21300014: EspDer
+    21300016: EspDer2
+    21300018: EspDer3
+    21300020: AndAbaj
+    21300022: AndAbaj2
+    21300024: AndAbaj3
+    21300026: AndAbaj4
+    21300028: AndAbaj5
+    21300030: AndAbaj6
+    21300032: AndAbaj7
+    21300034: AndAbaj8
+    21300036: AndAbaj9
+    21300038: AndAbaj10
+    21300040: AndIzq
+    21300042: AndIzq2
+    21300044: AndIzq3
+    21300046: AndIzq4
+    21300048: AndIzq5
+    21300050: AndIzq6
+    21300052: AndIzq7
+    21300054: AndIzq8
+    21300056: AndIzq9
+    21300058: AndIzq10
+    21300060: AndArr
+    21300062: AndArr2
+    21300064: AndArr3
+    21300066: AndArr4
+    21300068: AndArr5
+    21300070: AndArr6
+    21300072: AndArr7
+    21300074: AndArr8
+    21300076: AndArr9
+    21300078: AndArr10
+    21300080: AndDer
+    21300082: AndDer2
+    21300084: AndDer3
+    21300086: AndDer4
+    21300088: AndDer5
+    21300090: AndDer6
+    21300092: AndDer7
+    21300094: AndDer8
+    21300096: AndDer9
+    21300098: AndDer10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EspFrente
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 909
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspFrente2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 909
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspFrente3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 909
+        width: 93
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspIzq
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 779
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspIzq2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 779
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspIzq3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 779
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspEspalda
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 649
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspDer
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 519
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspDer2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 519
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EspDer3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 519
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 389
+        width: 93
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 399
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 389
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 389
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 389
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 389
+        width: 93
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 399
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj8
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 389
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 389
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndAbaj10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 389
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 259
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 264
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 276
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 264
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 264
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq6
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 259
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 259
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 269
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 269
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndIzq10
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 264
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 137
+        width: 93
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 139
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 139
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 139
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 139
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 139
+        width: 93
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 139
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr8
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 139
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 134
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndArr10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 139
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 4
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 4
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer7
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 14
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer9
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 4
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AndDer10
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
