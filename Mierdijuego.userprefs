@@ -1,15 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Move.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Camara.cs">
     <Files>
-      <File FileName="assets\Scripts\Move.cs" Line="15" Column="15" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.cs">
-    <Files>
-      <File FileName="Mierdijuego.sln" Line="43" Column="1" />
-      <File FileName="Assets\Scripts\Move.cs" Line="9" Column="2" />
->>>>>>> a5fa5692d24eb7c9a3cc1f7e639793cf1ff53928
+      <File FileName="assets\Scripts\Camara.cs" Line="25" Column="73" />
+      <File FileName="assets\Scripts\Move.cs" Line="44" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
