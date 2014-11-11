@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Camara.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.cs">
     <Files>
-      <File FileName="assets\Scripts\Camara.cs" Line="25" Column="73" />
-      <File FileName="assets\Scripts\Move.cs" Line="44" Column="1" />
+      <File FileName="Assets\Scripts\Move.cs" Line="39" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

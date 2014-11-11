@@ -1,9 +1,13 @@
+# =============== #
 # Unity generated #
 # =============== #
 Temp/
 Obj/
 UnityGenerated/
 Library/
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
+Mierdijuego.sln
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
