@@ -7,7 +7,7 @@ public enum ENEMYDIRECTION {UPDOWN,LEFTRIGHT};
 An enemy that goes and come back
 */
 
-public class EnemigoMovimiento : MonoBehaviour {
+public class enemigoMovimiento : MonoBehaviour {
 
 
 	public ENEMYDIRECTION movementDirection;

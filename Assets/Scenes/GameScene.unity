@@ -857,6 +857,7 @@ GameObject:
   - 111: {fileID: 1014255085}
   - 95: {fileID: 1014255084}
   - 58: {fileID: 1014255083}
+  - 114: {fileID: 1014255089}
   m_Layer: 0
   m_Name: Enemigo
   m_TagString: Untagged
@@ -953,11 +954,26 @@ Transform:
   m_PrefabInternal: {fileID: 2052229003}
   m_GameObject: {fileID: 1014255082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47620094, y: 2.39935398, z: 0}
-  m_LocalScale: {x: .862580836, y: .862580836, z: .828400016}
+  m_LocalPosition: {x: 2.26275063, y: 8.36487198, z: 0}
+  m_LocalScale: {x: 1.26086855, y: 1.26086831, z: 1.21090496}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
+--- !u!114 &1014255089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014255082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5f9b4ce5759104c9fe047a448346e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDirection: 1
+  movementLength: 4
+  animador: {fileID: 0}
+  speed: .00999999978
 --- !u!1001 &1042008292
 Prefab:
   m_ObjectHideFlags: 0
@@ -2673,11 +2689,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.47620094
+      value: 2.26275063
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.39935398
+      value: 8.36487198
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2705,15 +2721,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalScale.x
-      value: .862580836
+      value: 1.26086855
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalScale.y
-      value: .862580836
+      value: 1.26086831
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_Name
       value: Enemigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.21090496
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
