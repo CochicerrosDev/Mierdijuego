@@ -858,6 +858,8 @@ GameObject:
   - 95: {fileID: 1014255084}
   - 58: {fileID: 1014255083}
   - 114: {fileID: 1014255089}
+  - 82: {fileID: 1014255090}
+  - 114: {fileID: 1014255091}
   m_Layer: 0
   m_Name: Enemigo
   m_TagString: Untagged
@@ -975,6 +977,97 @@ MonoBehaviour:
   damp: 5
   animador: {fileID: 1014255084}
   speed: 3
+--- !u!82 &1014255090
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014255082}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 22bd68e27b4c7084d82765ec4762e40c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 30
+  Pan2D: .0199999996
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .0333333351
+      value: 1
+      inSlope: -30.0120068
+      outSlope: -30.0120068
+      tangentMode: 0
+    - time: .0666666701
+      value: .5
+      inSlope: -7.50300169
+      outSlope: -7.50300169
+      tangentMode: 0
+    - time: .13333334
+      value: .25
+      inSlope: -1.87575042
+      outSlope: -1.87575042
+      tangentMode: 0
+    - time: .332456172
+      value: .0308823511
+      inSlope: -.468937606
+      outSlope: -.468937606
+      tangentMode: 0
+    - time: .533333361
+      value: 0
+      inSlope: -.117234401
+      outSlope: -.117234401
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -.0333466418
+      outSlope: -.0333466418
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .13611111
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1014255091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014255082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f8a3b2fe91bb7469ae8cb5e866a561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lugarDelTexto: {fileID: 1918699810}
+  cuadro: {fileID: 0}
 --- !u!1001 &1042008292
 Prefab:
   m_ObjectHideFlags: 0
@@ -1695,7 +1788,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524913932}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1524913934
 Behaviour:
   m_ObjectHideFlags: 0
@@ -2564,6 +2657,7 @@ GameObject:
   - 111: {fileID: 1961348239}
   - 95: {fileID: 1961348240}
   - 58: {fileID: 1961348232}
+  - 81: {fileID: 1961348234}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -2599,6 +2693,13 @@ MonoBehaviour:
   animador: {fileID: 0}
   vely: 0
   velx: 0
+--- !u!81 &1961348234
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961348231}
+  m_Enabled: 1
 --- !u!50 &1961348235
 Rigidbody2D:
   m_ObjectHideFlags: 0
