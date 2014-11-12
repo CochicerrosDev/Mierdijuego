@@ -970,10 +970,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e5f9b4ce5759104c9fe047a448346e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementDirection: 1
-  movementLength: 4
-  animador: {fileID: 0}
-  speed: .00999999978
+  following: {fileID: 1961348231}
+  distance: 1
+  damp: 5
+  animador: {fileID: 1014255084}
+  speed: 3
 --- !u!1001 &1042008292
 Prefab:
   m_ObjectHideFlags: 0

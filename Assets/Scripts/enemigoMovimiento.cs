@@ -9,37 +9,65 @@ An enemy that goes and come back
 
 public class enemigoMovimiento : MonoBehaviour {
 
-
-	public ENEMYDIRECTION movementDirection;
-	public float movementLength;
+	public GameObject following;
+	public float distance;
+	public float damp = 2;
+//	public ENEMYDIRECTION movementDirection;
+//	public float movementLength;
 	public Animator animador;
 	public float speed=0.1f;
 
 	//Life myLife;
 
 
-	float currentDirectionIncrement;
-	float currentLength = 0;
+//	float currentDirectionIncrement;
+//	float currentLength = 0;
 	float velx;
-	float cero=0;
+	float vely;
+//	float cero=0;
 
 
 	void Start () {
-		currentDirectionIncrement = speed;
-		//myLife = gameObject.GetComponent("Life") as Life;
-	}
 
-	void Awake (){
-
-				animador = GetComponent<Animator> ();
 		}
 
+	void Update () 
+	{
+		vely=0;
+		velx=0;
+
+
+			if (following.rigidbody2D.transform.position.y > (rigidbody2D.transform.position.y + distance)) {
+				vely = 1;
+				rigidbody2D.transform.position += Vector3.up * speed * Time.deltaTime;
+				
+			} 
+		//else if (following.rigidbody2D.transform.position.y == (rigidbody2D.transform.position.y + distance)) {}
+		else {
+				vely = -1;
+				rigidbody2D.transform.position -= Vector3.up * speed * Time.deltaTime;
+				
+			}
 
 
 
-	void Update () {
+			if (following.rigidbody2D.transform.position.x > (rigidbody2D.transform.position.x + distance)) {
+				velx = 1;
+				rigidbody2D.transform.position += Vector3.right * speed * Time.deltaTime;
+				
+			} 
+		//else if (following.rigidbody2D.transform.position.x == (rigidbody2D.transform.position.x + distance)) {}
+		else if ((rigidbody2D.transform.position.x + distance) > following.rigidbody2D.transform.position.x) {
+				velx = -1;
+				rigidbody2D.transform.position -= Vector3.right * speed * Time.deltaTime;
+				
+			}
 
-		velx = 0;
+
+		animador.SetFloat ("VelX", velx);
+		animador.SetFloat ("VelY", vely);
+		// EL CODIGO DESDE ESTE PUNTO SERIA PARA UN MOVIMIENTO CICLICO DEL PERSONAJE, VARIABLES LIFE PARA LA VIDA.
+		/*velx = 0;
 
 		//Stop movement if I am dead
 	//	if (RoomManager.Instance.Pause || myLife.life<=0) return;
@@ -64,5 +92,6 @@ public class enemigoMovimiento : MonoBehaviour {
 			currentDirectionIncrement *= -1;
 		}
 		animador.SetFloat ("VelX", velx);
+	}*/
 	}
 }
