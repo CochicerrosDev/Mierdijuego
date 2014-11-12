@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum ENEMYDIRECTION {UPDOWN,LEFTRIGHT};
+//public enum ENEMYDIRECTION {UPDOWN,LEFTRIGHT};
 
 /*
 An enemy that goes and come back
@@ -94,4 +94,7 @@ public class enemigoMovimiento : MonoBehaviour {
 		animador.SetFloat ("VelX", velx);
 	}*/
 	}
+	void OnTriggerEnter2D(Collider2D other) {
+
+		}
 }

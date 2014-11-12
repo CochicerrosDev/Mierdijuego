@@ -7,10 +7,16 @@ public class CharlaNPC : MonoBehaviour {
 	public TextMesh lugarDelTexto;
 	public GameObject cuadro;
 
+
 	void OnTriggerEnter2D(Collider2D other) {
 		lugarDelTexto.text = texto;
 		cuadro.SetActive (true);
 	}
+
+	void OnTriggerExit2D(Collider2D other) {
+		lugarDelTexto.text = null;
+				cuadro.SetActive (false);
+		}
 
 	// Use this for initialization
 	void Start () {

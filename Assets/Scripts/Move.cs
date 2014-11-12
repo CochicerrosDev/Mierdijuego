@@ -6,6 +6,7 @@ public class Move : MonoBehaviour {
 	public Animator animador;
 	public float vely = 0f;
 	public float velx = 0f;
+	public Vida life;
 
 
 	void Awake(){
@@ -37,6 +38,7 @@ public class Move : MonoBehaviour {
 				} 
 		animador.SetFloat ("VelX", velx);
 		animador.SetFloat ("VelY", vely);
+
 
 				
 			}

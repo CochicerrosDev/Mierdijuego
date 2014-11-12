@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum ROL {Personaje, Enemigo};
-public enum TIPO {Personaje, Enemigo,BLOCK,WEAPON}
+//public enum ROL {Personaje, Enemigo};
+//public enum TIPO {Personaje, Enemigo,BLOCK,WEAPON}
 
 /*
  Life control for the player, attacks, enemies and breakable blocks
@@ -10,11 +10,14 @@ public enum TIPO {Personaje, Enemigo,BLOCK,WEAPON}
 
 public class Vida : MonoBehaviour {
 
-	public TIPO Tipo;
-	public ROL Rol;
+	//public TIPO Tipo;
+//	public ROL Rol;
 	public Animator animador;
-	public int VVida = 100;
-	public int VidaMax = 300;
+	public float VVida = 100f;
+	public float VidaMax = 300f;
+
+	void start(){
+		}
 
 	void Awake(){
 		
@@ -22,18 +25,22 @@ public class Vida : MonoBehaviour {
 		
 	}
 
+	void update(){
+				animador.SetFloat ("vida", VVida);
+		}
+
 	//public GameObject createWhenDestroyed=null;
 		
-	public void AumentarVida(int qty) {
+	public void AumentarVida(float qty) {
 		VVida+=qty;
 		if (VVida>VidaMax) VVida = VidaMax;
 	}
 
 
 
-	public void Hit(int power) {
+	public void Hit(float power) {
 		VVida -= power;
-		animador.SetInteger("vida", VVida);
+		animador.SetFloat("vida", VVida);
 
 		/*if (life<=0) {
 			//Player will not die for now
@@ -57,4 +64,7 @@ public class Vida : MonoBehaviour {
 			}
 		} */
 	}
+	void OnTriggerEnter2D(Collider2D Other) {
+		Hit (15);
+		}
 }
