@@ -10,16 +10,17 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 50: {fileID: 5000000}
-  - 114: {fileID: 11400000}
   - 111: {fileID: 11100000}
   - 95: {fileID: 9500000}
   - 58: {fileID: 5800000}
+  - 81: {fileID: 8100000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -28,8 +29,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.29835701, y: .824842393, z: 0}
-  m_LocalScale: {x: .828400016, y: .828400016, z: .828400016}
+  m_LocalPosition: {x: 1.29835749, y: .805017114, z: 0}
+  m_LocalScale: {x: .862580836, y: .862580836, z: .828400016}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -59,6 +60,13 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .42235285
   m_Center: {x: 0, y: 0}
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -96,13 +104,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3258b7e2c0a215746a6830611af5868b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e675b26baa82d14c911aeb4e3929c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 6
   animador: {fileID: 0}
-  vely: 0
-  velx: 0
+  vely: 1
+  velx: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
