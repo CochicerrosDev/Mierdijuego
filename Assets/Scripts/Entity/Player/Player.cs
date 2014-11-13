@@ -12,6 +12,10 @@ public class Player : Entity {
 	void Update () {
 		velx = 0;
 		vely = 0;
+		if (Vida <= 0) {
+						transform.position = new Vector3 (0, 0, 0);
+						Vida = 120;
+				}
 
 		if (Input.GetKey (KeyCode.RightArrow)) {
 			velx = 1;
@@ -31,5 +35,12 @@ public class Player : Entity {
 		}
 		animador.SetFloat ("VelX", velx);
 		animador.SetFloat ("VelY", vely);
+		animador2.SetFloat ("vida", Vida);
+	}
+
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Enemy")
+			Golpe (20);
+		
 	}
 }

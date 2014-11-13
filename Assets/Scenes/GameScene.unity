@@ -857,12 +857,11 @@ GameObject:
   - 111: {fileID: 1014255085}
   - 95: {fileID: 1014255084}
   - 58: {fileID: 1014255083}
-  - 114: {fileID: 1014255089}
   - 82: {fileID: 1014255090}
-  - 114: {fileID: 1014255091}
+  - 114: {fileID: 1014255089}
   m_Layer: 0
   m_Name: Enemigo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -969,14 +968,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014255082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e5f9b4ce5759104c9fe047a448346e9, type: 3}
+  m_Script: {fileID: 11500000, guid: d70568a531890244895cd948fde6be41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   following: {fileID: 1961348231}
-  distance: 1
-  damp: 5
+  distance: 0
+  damp: 2
   animador: {fileID: 1014255084}
-  speed: 3
+  speed: 4
 --- !u!82 &1014255090
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1055,19 +1054,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!114 &1014255091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1014255082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6f8a3b2fe91bb7469ae8cb5e866a561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lugarDelTexto: {fileID: 1918699810}
-  cuadro: {fileID: 0}
 --- !u!1001 &1042008292
 Prefab:
   m_ObjectHideFlags: 0
@@ -1844,7 +1830,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1562045143}
   m_Father: {fileID: 0}
   m_RootOrder: 12
 --- !u!114 &1524913938
@@ -1918,7 +1905,12 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .862580836
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 100000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
   m_RootGameObject: {fileID: 1961348231}
   m_IsPrefabParent: 0
@@ -2015,6 +2007,49 @@ Prefab:
   m_RootGameObject: {fileID: 1467616497}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1562045142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1562045143}
+  - 95: {fileID: 1562045144}
+  m_Layer: 0
+  m_Name: Vida
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1562045143
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562045142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.49552727, y: 4.43328285, z: 8.54579544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1524913937}
+  m_RootOrder: 0
+--- !u!95 &1562045144
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562045142}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdf5f4d7220b94649a53c75dde399fa8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1641006850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,14 +2688,14 @@ GameObject:
   - 4: {fileID: 1961348237}
   - 212: {fileID: 1961348236}
   - 50: {fileID: 1961348235}
-  - 114: {fileID: 1961348233}
   - 111: {fileID: 1961348239}
   - 95: {fileID: 1961348240}
   - 58: {fileID: 1961348232}
   - 81: {fileID: 1961348234}
+  - 114: {fileID: 1961348238}
   m_Layer: 0
   m_Name: Personaje
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2677,22 +2712,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .42235285
   m_Center: {x: 0, y: 0}
---- !u!114 &1961348233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 8f35ae7567dd60f4aba7304b6236212d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1525190119}
-  m_GameObject: {fileID: 1961348231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3258b7e2c0a215746a6830611af5868b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-  animador: {fileID: 0}
-  vely: 0
-  velx: 0
 --- !u!81 &1961348234
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2751,6 +2770,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
+--- !u!114 &1961348238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961348231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e675b26baa82d14c911aeb4e3929c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  animador: {fileID: 1961348240}
+  animador2: {fileID: 1562045144}
+  vely: 0
+  velx: 0
+  Vida: 120
+  VidaMax: 300
+  Fuerza: 0
 --- !u!111 &1961348239
 Animation:
   m_ObjectHideFlags: 0
@@ -2836,6 +2874,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.21090496
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
