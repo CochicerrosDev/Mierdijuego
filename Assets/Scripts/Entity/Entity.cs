@@ -10,7 +10,7 @@ public abstract class Entity : MonoBehaviour {
 	public float velx = 0f;
 	public float Vida = 120f;
 	public float VidaMax = 300f;
-	public float Fuerza;
+	public float Fuerza=30;
 
 
 

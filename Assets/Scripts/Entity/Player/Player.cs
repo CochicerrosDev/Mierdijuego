@@ -39,8 +39,9 @@ public class Player : Entity {
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Enemy")
-			Golpe (20);
+		if (coll.gameObject.tag == "Enemy") {
+			coll.gameObject.SendMessageUpwards("Golpe", Fuerza);
+				}
 		
 	}
 }

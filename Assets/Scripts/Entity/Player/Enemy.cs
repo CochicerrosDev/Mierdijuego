@@ -7,7 +7,7 @@ using System.Collections;
 An enemy that goes and come back
 */
 
-public class Enemy : MonoBehaviour {
+public class Enemy : Entity {
 	
 	public GameObject following;
 	public float distance;
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour {
 	//	public ENEMYDIRECTION movementDirection;
 	//	public float movementLength;
 	public Animator animador;
-	public float speed=0.1f;
+
 	
 	//Life myLife;
 	
