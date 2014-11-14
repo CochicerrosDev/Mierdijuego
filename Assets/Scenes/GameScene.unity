@@ -857,6 +857,7 @@ GameObject:
   - 111: {fileID: 1014255085}
   - 95: {fileID: 1014255084}
   - 58: {fileID: 1014255083}
+  - 81: {fileID: 1014255091}
   - 82: {fileID: 1014255090}
   - 114: {fileID: 1014255089}
   m_Layer: 0
@@ -864,7 +865,7 @@ GameObject:
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!58 &1014255083
 CircleCollider2D:
@@ -971,11 +972,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70568a531890244895cd948fde6be41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 4
+  animador: {fileID: 1014255084}
+  animador2: {fileID: 0}
+  vely: 0
+  velx: 0
+  Vida: 120
+  VidaMax: 300
+  Fuerza: 30
   following: {fileID: 1961348231}
   distance: 0
   damp: 2
   animador: {fileID: 1014255084}
-  speed: 4
 --- !u!82 &1014255090
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1054,6 +1062,14 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!81 &1014255091
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 8f35ae7567dd60f4aba7304b6236212d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2052229003}
+  m_GameObject: {fileID: 1014255082}
+  m_Enabled: 1
 --- !u!1001 &1042008292
 Prefab:
   m_ObjectHideFlags: 0
@@ -1257,6 +1273,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
+--- !u!1 &1191126627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1191126629}
+  - 58: {fileID: 1191126628}
+  m_Layer: 0
+  m_Name: ZonaCurar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!58 &1191126628
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191126627}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 0}
+--- !u!4 &1191126629
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191126627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.06614637, y: 1.41238809, z: -1.45420456}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
 --- !u!1 &1302659443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +1964,10 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eebfbf92d55239940a1f4a4b9aa4d7f4, type: 2}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8f35ae7567dd60f4aba7304b6236212d, type: 2}
@@ -2691,6 +2750,7 @@ GameObject:
   - 111: {fileID: 1961348239}
   - 95: {fileID: 1961348240}
   - 58: {fileID: 1961348232}
+  - 81: {fileID: 1961348233}
   - 81: {fileID: 1961348234}
   - 114: {fileID: 1961348238}
   m_Layer: 0
@@ -2698,7 +2758,7 @@ GameObject:
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!58 &1961348232
 CircleCollider2D:
@@ -2712,6 +2772,14 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .42235285
   m_Center: {x: 0, y: 0}
+--- !u!81 &1961348233
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 8f35ae7567dd60f4aba7304b6236212d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1525190119}
+  m_GameObject: {fileID: 1961348231}
+  m_Enabled: 1
 --- !u!81 &1961348234
 AudioListener:
   m_ObjectHideFlags: 0
